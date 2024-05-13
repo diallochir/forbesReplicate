@@ -4,8 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Work Sans, sans-serif;
-    width: 100%;
-    height: 100%;
+    
 }
 
 header{
@@ -22,7 +21,7 @@ header a {
     color:white;
     margin-left: 20px;
     align-items: center;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .container {
@@ -32,37 +31,38 @@ header a {
   }
   
   .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 20px;
+    height: 4px;
     background-color:white;
     margin: 6px 0;
     transition: 0.4s;
   }
 
   header i {
-    margin-left: 10px;
+    margin-left: 8px;
   }
 
   
   header .logoForbes{
     display: flex;
     position: relative;
-    height: 100px;
+    height: 60px;
     font-weight:700;
     fill: #fff;
     pointer-events: none;
     color: inherit;
     cursor: pointer;
     left: 25%;
+    font-family: work sans, sans-serif;
 }
 .logoForbes a {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 header div.subscribe {
     display: flex;
     position: relative;
-    left: 45%;
+    left: 40%;
 }
 
 
@@ -75,8 +75,8 @@ header div.subscribe {
     color: #fff;
     cursor: pointer;
     display: flex;
-    font: 700 25px / 25px Work Sans, sans-serif;
-    height: 32px;
+    font: 700 15px / 15px Work Sans, sans-serif;
+    height: 25px;
     justify-content: center;
     letter-spacing: -.2px;
     margin-right: 16px;
@@ -90,7 +90,7 @@ header div.subscribe {
 .login {
     align-items: stretch;
     color: #fff;
-    font: 20px Work Sans, sans-serif;
+    font: 15px Work Sans, sans-serif;
     letter-spacing: .5px;
     margin-right: 32px;
     padding: 0;
@@ -99,69 +99,71 @@ header div.subscribe {
     border: black;
     cursor: pointer;
     position: relative;
-    left: 45%;
+    left: 40%;
 }
 
 .fas {
     position: relative;
-    left: 45%;
+    left: 40%;
 }
 
 
 .textNews{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-left:20px;
+    margin-bottom: 30px;
     margin-top: 20px;
-    justify-content: space-evenly;
-    margin:50px;
-    height: 150px;
+    height: 90px;
     border: transparent 1px;
+    font-size: smaller;
 }
 
 
 .text1 {
-    flex-basis: 22%;
+    flex-basis: 20%;
+    margin-right: 20px;
 }
 
 .text1 span{
     background-color: #dc0000;
     color: white;
-    margin: 0;
 }
 .text2 {
-    flex-basis: 22%;
+    flex-basis: 20%;
+    margin-right: 20px;
 }
 .text3 {
-    flex-basis: 22%;    
+    flex-basis: 20%;
+    margin-right: 20px;  
 }
 .text4 {
-    flex-basis: 22%;
+    flex-basis: 20%;
 }
 
 footer {
     display: flex;
     flex-direction: row;
     height: 800px;
-    margin: 30px;
     justify-content: center;
-    font-size: large;
 }
 
 .textNews a {
     text-decoration: none;
     color: black;
-    font-size: large;
-    font-weight: 800;
+    font-size: medium;
+    font-weight: 600;
 }
 
 .boxImg {
     flex-basis: 60%;
-    margin-right: 20px;
 }
 
 .boxNews {
-    flex-basis: 30%;
-    padding-left: 20px;
+    flex-basis: 10%;
+    margin-left: 20px;
+    
 }
 
 p {
@@ -174,7 +176,7 @@ p {
     font-size: medium;
 }
 div p { 
-    margin-left: 100px;
+    margin-left: 120px;
     margin-top:0;
 }
 
@@ -182,7 +184,7 @@ div p {
     font-family: work sans, sans-serif;
     text-decoration: none;
     display: block;
-    font: 700 22px / 34px Merriweather, GeorgiaCustom;
+    font: 700 20x / 30px Merriweather, GeorgiaCustom;
     color: inherit;
     cursor: pointer;
     -webkit-text-decoration-skip: objects;
@@ -192,19 +194,19 @@ div p {
 
 
 button {
-    color: white;
-    background-color: blue;
+    background: #007ac8;
+    border-color: #007ac8;
+    color: #fff;
     letter-spacing: normal;
     text-shadow: none;
     cursor: default;
     box-sizing: border-box;
     margin: 0em;
-    border-radius: 10px;
+    border-radius: 8px;
     border-color: transparent;
-    font: 200 20px / 20px Work Sans, sans-serif;
-    height: 40px;
+    font: 120 10px / 12px Work Sans, sans-serif;
+    height: 30px;
     justify-content: center;
-    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
 }
