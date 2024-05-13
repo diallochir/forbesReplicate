@@ -1,0 +1,232 @@
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Work Sans, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+}
+
+header a {
+    display: flex;
+    text-decoration: none;
+    color:white;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 25px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  header i {
+    margin-left: 10px;
+  }
+
+  
+  header .logoForbes{
+    display: flex;
+    position: relative;
+    height: 100px;
+    font-weight:700;
+    fill: #fff;
+    pointer-events: none;
+    color: inherit;
+    cursor: pointer;
+    left: 25%;
+}
+.logoForbes a {
+    font-size: 50px;
+}
+
+header div.subscribe {
+    display: flex;
+    position: relative;
+    left: 45%;
+}
+
+
+.CMynM-pI {
+    align-items: center;
+    align-self: center;
+    background-color: #dc0000;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font: 700 25px / 25px Work Sans, sans-serif;
+    height: 32px;
+    justify-content: center;
+    letter-spacing: -.2px;
+    margin-right: 16px;
+    outline: none;
+    padding: 10px 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.login {
+    align-items: stretch;
+    color: #fff;
+    font: 20px Work Sans, sans-serif;
+    letter-spacing: .5px;
+    margin-right: 32px;
+    padding: 0;
+    text-align: start;
+    background-color: black;
+    border: black;
+    cursor: pointer;
+    position: relative;
+    left: 45%;
+}
+
+.fas {
+    position: relative;
+    left: 45%;
+}
+
+
+.textNews{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin:50px;
+    height: 150px;
+    border: transparent 1px;
+}
+
+
+.text1 {
+    flex-basis: 22%;
+}
+
+.text1 span{
+    background-color: #dc0000;
+    color: white;
+    margin: 0;
+}
+.text2 {
+    flex-basis: 22%;
+}
+.text3 {
+    flex-basis: 22%;    
+}
+.text4 {
+    flex-basis: 22%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    margin: 30px;
+    justify-content: center;
+    font-size: large;
+}
+
+.textNews a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 800;
+}
+
+.boxImg {
+    flex-basis: 60%;
+    margin-right: 20px;
+}
+
+.boxNews {
+    flex-basis: 30%;
+    padding-left: 20px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: medium;
+}
+div p { 
+    margin-left: 100px;
+    margin-top:0;
+}
+
+.boxImg a{
+    font-family: work sans, sans-serif;
+    text-decoration: none;
+    display: block;
+    font: 700 22px / 34px Merriweather, GeorgiaCustom;
+    color: inherit;
+    cursor: pointer;
+    -webkit-text-decoration-skip: objects;
+    background-color: #0000;
+    text-align: center;
+}
+
+
+button {
+    color: white;
+    background-color: blue;
+    letter-spacing: normal;
+    text-shadow: none;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0em;
+    border-radius: 10px;
+    border-color: transparent;
+    font: 200 20px / 20px Work Sans, sans-serif;
+    height: 40px;
+    justify-content: center;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.menImag { 
+    display: flex;
+    font-family: work sans, sans-serif;
+}
+
+
+text {
+    flex-basis: 70%;
+}
+
+.menImag2 { 
+    display: flex;
+    font-family: work sans, sans-serif;
+}
+
+.boxNews a {
+    text-decoration: none;
+    color: black;
+}
