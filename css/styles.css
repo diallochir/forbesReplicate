@@ -62,7 +62,7 @@ header a {
 header div.subscribe {
     display: flex;
     position: relative;
-    left: 40%;
+    left: 35%;
 }
 
 
@@ -99,12 +99,12 @@ header div.subscribe {
     border: black;
     cursor: pointer;
     position: relative;
-    left: 40%;
+    left: 35%;
 }
 
 .fas {
     position: relative;
-    left: 40%;
+    left: 35%;
 }
 
 
